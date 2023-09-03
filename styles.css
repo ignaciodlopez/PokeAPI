@@ -1,0 +1,23 @@
+/* Styles for the yellow transparent background div */
+.yellow-background {
+    background-color: rgba(255, 255, 0, 0.3); /* Transparent yellow */
+    padding: 20px; /* Inner spacing */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Background color */
+body {
+    background: linear-gradient(0deg, rgb(252, 244, 164), rgb(249, 149, 203));
+    background-size: 100% 100%; /* Ensure the gradient covers the entire space */
+    background-attachment: fixed; /* Prevent the background from scrolling with content */
+}
+
+
+/* Apply these styles to all hyperlinks */
+a { 
+    color: rgba(0, 0, 0, 0.26); /* Set text color with slight transparency */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Set font weight to bold */
+    font-size: 15px; /* Set font size to 15 pixels */
+}
+
